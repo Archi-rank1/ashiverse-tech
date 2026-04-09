@@ -1,160 +1,43 @@
-<!DOCTYPE html>
-<html lang="th">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>AshiVerse Tech</title>
-  <link rel="stylesheet" href="style.css">
-  <meta name="google-site-verification" content="Yy7O5q8Ho2AzY10WKVCtcBbbaJvSY5760d0GQgSPIN4" />
-</head>
-<!-- ปุ่มลอย -->
-<div class="floating-btns">
+.contact {
+  background: linear-gradient(rgba(10,30,60,0.9), rgba(10,30,60,0.9)),
+              url('work1.jpg');
+  background-size: cover;
+  padding: 80px 20px;
+  color: white;
+  text-align: center;
+}
 
-  <a href="tel:0818906137" class="float-call">
-    📞
-  </a>
+.contact-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  max-width: 1000px;
+  margin: auto;
+}
 
-  <a href="https://www.google.com/maps/dir/?api=1&destination=13.5623657,100.6162819" 
-     class="float-map" target="_blank">
-    📍
-  </a>
+.contact-info {
+  background: rgba(255,255,255,0.1);
+  padding: 25px;
+  border-radius: 15px;
+  text-align: left;
+}
 
-</div>
-<a href="https://line.me/R/ti/p/@ashiverse" 
-   class="float-line" 
-   target="_blank">
-   💬
-</a>
+.contact-info a {
+  color: #00ffcc;
+  text-decoration: none;
+}
 
-<body>
+.line-btn {
+  display: inline-block;
+  margin-top: 15px;
+  background: #00c300;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
 
-<nav>
-   <div class="nav-left">
-    <img src="logo.png" alt="logo">
-    <h2>AshiVerse Tech</h2>
-  </div>
-
-  <ul>
-    <li><a href="#home">หน้าแรก</a></li>
-    <li><a href="#services">บริการ</a></li>
-    <li><a href="#about">เกี่ยวกับ</a></li>
-    <li><a href="#contact">ติดต่อ</a></li>
-  </ul>
-</nav>
-
-<section id="home" class="hero">
-  <a href="#contact" class="hero-btn">ติดต่อเรา</a>
-  <h1>ซ่อม Siemens มืออาชีพ</h1>
-  <p>SIMODRIVE / SIMOVERT / MASTERDRIVE ครบวงจร</p>
-  <p>รับซ่อมด่วน วิเคราะห์ฟรี ประเมินราคาก่อนซ่อม</p>
-  <p>รับซ่อมทั่วประเทศ ส่งงานได้</p>
-  <p>มีประสบการณ์ซ่อมมากกว่า 20ปี </p>
-  <p>รับประกันงานซ่อม</p>
-</section>
-
-<section id="services"> 
-  <h2>บริการของเรา</h2>
-  <div class="grid">
-    <div>ซ่อม PCB</div>
-    <div>PART Siemens</div>
-    <div>SIMODRIVE</div>
-    <div>SIMOVERT</div>
-    <div>MASTERDRIVE MC</div>
-    <div>SERVO CARD</div>
-  </div>
-</section>
-
-<section id="about">
-<section id="portfolio">
-  <h2>ตัวอย่างงานของเรา</h2>
-
-  <div class="gallery">
-    <img src="work1.jpg">
-    <img src="work2.jpg">
-  <div class="gallery">
-  <div>
-    <img src="work1.jpg">
-    <p>งานซ่อม Siemens</p>
-  </div>
-</div>
-  <h2>เกี่ยวกับเรา</h2>
-  <p>
-    <h1>AshiVerse Tech Co., Ltd.</h1> ให้บริการซ่อมอุปกรณ์อุตสาหกรรม Siemens
-    โดยทีมงานมืออาชีพ รวดเร็ว แม่นยำ และคุ้มค่า เดินทาไปหน้างานได้ ไกล้หรือไกล ไปหมด
-  </p>
-</section>
-
-<section id="contact">
-  <h2>ติดต่อเรา</h2>
-
-  <div class="contact-box">
-
-    <p>📞 โทร: 
-      <a href="tel:0818906137">081-890-6137</a>
-    </p>
-
-    <p>💬 Line: 
-      <a href="https://line.me/" target="_blank">0818906137</a>
-    </p>
-
-    <p>🌐 เว็บไซต์: www.AshiVerseTech.com</p>
-
-    <a href="tel:0818906137" class="call-btn">📞 โทรเลย</a>
-
-  </div>
-<section>
-  <h2>รีวิวจากลูกค้า</h2>
-
-  <div class="review-box">
-    ⭐️⭐️⭐️⭐️⭐️ ซ่อมไว งานดีมาก
-  </div>
-
-  <div class="review-box">
-    ⭐️⭐️⭐️⭐️⭐️ ใช้บริการหลายครั้งแล้ว ประทับใจ
-
-  <div class="review-box">
-    ⭐️⭐️⭐️⭐️⭐️ โรงงานใช้แล้วโอเค ซ่อมเร็วมาก
-  </div>
-
-</section>
-<section>
-  <section id="map">
-
-  <section id="map">
-  <h2>ที่ตั้งของเรา</h2>
-
-  <div class="map-container">
-    <iframe
-      src="https://www.google.com/maps?q=13.5623657,100.6162819&z=15&output=embed"
-      width="100%"
-      height="350"
-      style="border:0;"
-      loading="lazy">
-    </iframe>
-  </div>
-
-  <a href="https://www.google.com/maps/dir/?api=1&destination=13.5623657,100.6162819"
-   class="map-btn">
-     📍 นำทางมาที่ร้าน
-  </a>
-</section>
-</section>
-</section>
-  <h2>ติดต่อเรา</h2>
-
-  <form>
-    <input type="text" placeholder="ชื่อของคุณ" required>
-    <input type="email" placeholder="อีเมล" required>
-    <textarea placeholder="รายละเอียดงาน"></textarea>
-    <button type="submit">ส่งข้อความ</button>
-  </form>
-
-  <p>เว็บไซต์: www.AshiVerseTech.com</p>
-</section>
-
-<footer>
-  <p>© 2026 AshiVerse Tech</p>
-</footer>
-
-</body>
-</html>
+.contact-map {
+  border-radius: 15px;
+  overflow: hidden;
+  height: 300px;
+}
