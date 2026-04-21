@@ -349,3 +349,9 @@
     grid-template-columns: 1fr;
   }
 }
+.highlight {
+  margin-top: 10px;
+  font-size: 15px;
+  color: #ddd;
+  line-height: 1.6;
+}
